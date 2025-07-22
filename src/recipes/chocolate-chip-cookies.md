@@ -1,6 +1,5 @@
 ---
 title: Chocolate Chip Cookies
-description: A classic comfort food for all ages.
 slug: chocolate-chip-cookies
 ---
 
