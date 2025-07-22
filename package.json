@@ -6,9 +6,11 @@
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
+    "show": "pnpm run build && pnpm run preview",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/netlify": "^6.5.2",
     "astro": "^5.12.1",
     "sharp": "^0.34.3"
   },

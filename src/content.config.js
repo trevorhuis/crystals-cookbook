@@ -5,7 +5,6 @@ const recipes = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/recipes" }),
   schema: z.object({
     title: z.string(),
-    description: z.string(),
     slug: z.string(),
   }),
 });
